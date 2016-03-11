@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#000000">
+
+    <TextView android:text="Three Bots!" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ThreeBots"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="55dp"
+        android:background="#0000ff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="right" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SkatingAndroid"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skating Android!"
+        android:id="@+id/Bottom"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:background="#ff0000"
+        android:layout_alignLeft="@+id/SkatingAndroid"
+        android:layout_alignStart="@+id/SkatingAndroid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,240 @@
+/*Sean Lee*/
+/*4308131*/
+
+.Index,
+.NewsEvents,
+.StoreDirectory,
+.GettingHere,
+.Contact,
+.Service,
+.AboutOurGroup,
+.Gallery,
+.Feedback,
+.About
+{
+	max-width:1400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #000000;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.font p
+{
+	font-family:"Arial";
+	text-align: left;
+	margin-left: 1cm;
+}
+
+.font h2
+{
+	font-family:"Arial";
+	text-align: left;
+	margin-left: 1cm;
+	text-decoration: underline;
+}
+
+.picture p
+{
+	font-family:"Arial";
+	text-align: center;
+}
+
+.footer a
+{
+	text-align:center;
+	max-width: 925px;
+	font-size: 12pt;
+	margin-left: 5.5cm;
+	margin-right: auto;
+	color: grey;
+}
+
+h1
+{
+	font-size:24pt;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+p
+{
+	text-align:justify;
+	max-width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+h2
+{
+	text-align:justify;
+	max-width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20pt;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#NavigationMenu ul li,
+#StoreDirectoryMenu ul li,
+#BasementFloorMenu ul li,
+#GroundFloorMenu ul li,
+#FirstFloorMenu ul li,
+#SecondFloorMenu ul li,
+#ThirdFloorMenu ul li
+{
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#NavigationMenu li,
+#StoreDirectoryMenu li,
+#BasementFloorMenu li,
+#GroundFloorMenu li,
+#FirstFloorMenu li,
+#SecondFloorMenu li,
+#ThirdFloorMenu li
+{
+ 	display: block;
+	float: left;
+	position:relative;
+ 	margin: 0;
+ 	padding: 0;
+ 	font-size: 10.5pt;
+ 	border-top: 2.5px solid #000000;
+	border-left: 2.5px solid #000000;
+	border-bottom: 2.5px solid #000000;
+	border-right: 2.5px solid #000000;;
+}
+
+#NavigationMenu li a,
+#StoreDirectoryMenu li a,
+#BasementFloorMenu li a,
+#GroundFloorMenu li a,
+#FirstFloorMenu li a,
+#SecondFloorMenu li a,
+#ThirdFloorMenu li a
+{
+  float: left;
+  position:relative;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 30px;
+  padding: 5px 7.5px 0;
+  font-weight: normal;
+
+  text-transform:uppercase;
+}
+
+#NavigationMenu li:hover a,
+#StoreDirectoryMenu li:hover a,
+#BasementFloorMenu li:hover a,
+#GroundFloorMenu li:hover a,
+#FirstFloorMenu li:hover a,
+#SecondFloorMenu li:hover a,
+#ThirdFloorMenu li:hover a
+{
+  color: #FFFFFF;
+  background-color:#B0B0B0;
+}
+
+#NavigationMenu li:active a,
+#StoreDirectoryMenu li:active a,
+#BasementFloorMenu li:active a,
+#GroundFloorMenu li:active a,
+#FirstFloorMenu li:active a,
+#SecondFloorMenu li:active a,
+#ThirdFloorMenu li:active a
+{
+  color: #fff;
+  background-color:#CC0099;
+  font-weight: 300;	
+  border-bottom: 2px solid #FFFFFF;
+}
+
+body#Index a#IndexNavigation,
+body#NewsEvents a#NewsEventsNavigation,
+body#StoreDirectory a#StoreDirectoryNavigation,
+body#About a#AboutNavigation,
+body#Contact a#ContactNavigation,
+body#Service a#ServiceNavigation,
+body#Feedback a#FeedbackNavigation,
+body#GettingHere a#GettingHereNavigation,
+body#Gallery a#GalleryNavigation,
+body#AboutOurGroup a#AboutOurGroupNavigation
+{
+	color: #fff;
+	background: #CC0099;
+}
+
+hr
+{
+	color: #FFFFFF;
+	border: 3px solid #505050;
+}
+
+.TableSettings
+{
+	color:#FFFFFF;
+	border:3px solid #505050;
+	background-color:#000000;
+	padding:0;
+	margin-left:auto; 
+    margin-right:auto;
+    font-family:"Arial";
+	box-shadow: 0px 30px 90px #888888;
+}
+
+.TableSettings th,
+.TableSettings tr,
+.TableSettings td
+{
+	background-color:#000000;
+	border:3px solid #505050;
+	color: #FFFFFF;
+}
+
+.bottom #PhoneNumber
+{
+	color:#FFFFFF;	
+	text-decoration:underline;
+	padding-bottom:50px;
+}	
+	
+.bottom
+{
+	text-align:center;
+	padding:0;
+	border-bottom:none;
+}
+
+.bottom p
+{
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.bottom #copyright  p
+{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:8pt;
+	padding-top:13px;
+	border:2px outset grey;
+	border-radius:0;
+	width:400px;
+	height:25px;
+	margin-top:auto;
+	color: #FFFFFF;
+}

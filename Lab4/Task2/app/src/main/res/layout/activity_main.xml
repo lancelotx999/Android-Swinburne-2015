@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/R">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/TextName"
+        android:layout_above="@+id/FieldName"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FieldName"
+        android:layout_above="@+id/TextLocation"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/FieldLocation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:id="@+id/TextLocation"
+        android:layout_above="@+id/FieldLocation"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FieldLocation"
+        android:layout_above="@+id/TextKeywords"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/FieldKeywords" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keywords"
+        android:id="@+id/TextKeywords"
+        android:layout_above="@+id/FieldKeywords"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FieldKeywords"
+        android:layout_above="@+id/TextDate"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/BtnShare" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:id="@+id/TextDate"
+        android:layout_above="@+id/FieldDate"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/FieldDate"
+        android:layout_above="@+id/TextFounder"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/FieldKeywords" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/founder"
+        android:id="@+id/TextFounder"
+        android:layout_above="@+id/FieldFounder"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/FieldFounder"
+        android:layout_above="@+id/TextRating"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/FieldDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating"
+        android:id="@+id/TextRating"
+        android:layout_above="@+id/RatingImage"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RatingImage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:id="@+id/BtnShare"
+        android:onClick="ShareImage"
+        android:layout_alignBottom="@+id/RatingImage"
+        android:layout_toEndOf="@+id/RatingImage" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/DisplayedImage"
+        android:src="@drawable/apple"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/FieldName" />
+
+</RelativeLayout>

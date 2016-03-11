@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lancelotx999.task1.DetailPage">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+
+
+    <TextView
+        android:id="@+id/txtCast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:textSize="12dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#FFBF00"
+        android:text="Casts: " />
+
+    <TextView
+        android:id="@+id/txtCastList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toRightOf="@+id/txtCast"
+        android:textSize="12dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#FFBF00"/>
+
+
+    <TextView
+        android:id="@+id/txtSypnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCast"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:text="Sypnosis: " />
+
+    <TextView
+        android:id="@+id/Sypnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtSypnosis"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp" />
+
+</RelativeLayout>

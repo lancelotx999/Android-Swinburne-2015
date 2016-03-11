@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lancelotx999.myapplication.DisplayMenu"
+    android:id="@+id/R">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mealtype"
+        android:id="@+id/TextMeal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customersatisfaction"
+        android:id="@+id/TextSatisfaction"
+        android:layout_below="@+id/TextMeal"
+        android:layout_alignParentStart="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customerrating"
+        android:id="@+id/TextRating"
+        android:layout_below="@+id/TextSatisfaction"
+        android:layout_alignParentStart="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/TextDisplayMeal"
+        android:layout_marginStart="46dp"
+        android:layout_above="@+id/TextSatisfaction"
+        android:layout_toEndOf="@+id/TextSatisfaction"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/TextDisplaySatisfaction"
+        android:textSize="15sp"
+        android:layout_above="@+id/TextRating"
+        android:layout_alignEnd="@+id/TextDisplayMeal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/TextDisplayRating"
+        android:layout_below="@+id/TextDisplaySatisfaction"
+        android:layout_alignStart="@+id/TextDisplaySatisfaction"
+        android:textSize="15sp" />
+
+</RelativeLayout>

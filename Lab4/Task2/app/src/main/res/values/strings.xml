@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name Of Image:</string>
+    <string name="location">Where Image Was Taken:</string>
+    <string name="keywords">Keywords Associated With Image:</string>
+    <string name="date">Date Image Was Taken:</string>
+    <string name="share">Share Image</string>
+    <string name="founder">Founder\'s Email:</string>
+    <string name="rating">Rate This Image:</string>
+    <string name="title_activity_image_information_display">ImageInformationDisplay</string>
+
+</resources>

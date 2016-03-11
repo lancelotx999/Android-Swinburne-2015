@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="centimetre">Centimetres: </string>
+    <string name="metre">Metres: </string>
+    <string name="feet">Feet: </string>
+    <string name="inches">Inches: </string>
+    <string name="action_settings">Settings</string>
+
+    <string name="convertmetre">Convert Metres</string>
+    <string name="convertcentimetre">Convert Centimetres</string>
+
+
+</resources>

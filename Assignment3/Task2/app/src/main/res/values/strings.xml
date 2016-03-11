@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="getprofile">Get Profile</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="loadimage">Load Image</string>
+
+    <string name="title_activity_get_profile">GetProfile</string>
+</resources>

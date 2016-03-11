@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/R">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RbgrpMeal"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/TextMeal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breakfast"
+            android:id="@+id/RbBreakfast"
+            android:layout_column="0"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lunch"
+            android:id="@+id/RbLunch"
+            android:layout_column="2"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dinner"
+            android:id="@+id/RbDinner"
+            android:layout_column="4" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satisfaction"
+        android:id="@+id/TextSatisfaction"
+        android:textSize="20sp"
+        android:layout_below="@+id/RbgrpMeal"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BarSatisfaction"
+        android:max="100"
+        android:progress="50"
+        android:minWidth="300dp"
+        android:minHeight="10dp"
+        android:indeterminate="false"
+        android:layout_below="@+id/TextSatisfaction"
+        android:layout_alignParentStart="true"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating"
+        android:id="@+id/TextRating"
+        android:textSize="20sp"
+        android:layout_below="@+id/BarSatisfaction"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/BtnSubmit"
+        android:clickable="true"
+        android:onClick="DisplayMenu"
+        android:layout_below="@+id/RatingSatisfaction"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RatingSatisfaction"
+        android:numStars="5"
+        android:rating="0"
+        android:layout_below="@+id/TextRating"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meal"
+        android:id="@+id/TextMeal" />
+
+</RelativeLayout>

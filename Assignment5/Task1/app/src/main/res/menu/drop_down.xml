@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add"
+        android:title="Add Contact"
+        android:onClick="AddContact"/>
+
+
+    <item
+        android:id="@+id/search"
+        android:title="Search Contact"
+        android:onClick="SearchContact"/>
+
+    <item
+        android:id="@+id/update"
+        android:title="Update Contact"
+        android:onClick="UpdateContact"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete Contact"
+        android:onClick="DeleteContact"/>
+
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="apple">Apple</string>
+    <string name="cheese">Cheese</string>
+    <string name="pie">Pie</string>
+    <string name="Pizza">Pizza</string>
+    <string name="title_activity_image_display">ImageDisplayActivity</string>
+
+</resources>

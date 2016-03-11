@@ -1,0 +1,30 @@
+James Butt, 6649 N Blue Gum St New Orleans, 504-621-8927, jbutt@gmail.com
+Josephine Darakjy, 4 B Blue Ridge Blvd Brighton, 810-292-9388, josephine_darakjy@darakjy.org
+Art Venere, 8 W Cerritos Ave #54 Bridgeport, 856-636-8749, art@venere.org
+Lenna Paprocki, 639 Main St Anchorage, 907-385-4412, lpaprocki@hotmail.com
+Donette Foller, 34 Center St Hamilton, 513-570-1893, donette.foller@cox.net
+Simona Morasca, 3 Mcauley Dr Ashland, 419-503-2484, simona@morasca.com
+Mitsue Tollner, 7 Eads St Chicago, 773-573-6914, mitsue_tollner@yahoo.com
+Leota Dilliard, 7 W Jackson Blvd San Jose, 408-752-3500, leota@hotmail.com
+Sage Wieser, 5 Boston Ave #88 Sioux Falls, 605-414-2147, sage_wieser@cox.net
+Kris Marrier, 228 Runamuck Pl #2808 Baltimore, 410-655-8723, kris@gmail.com
+Minna Amigon, 2371 Jerrold Ave Kulpsville, 215-874-1229, minna_amigon@yahoo.com
+Abel Maclead, 37275 St  Rt 17m M Middle Island, 631-335-3414, amaclead@gmail.com
+Kiley Caldarera, 25 E 75th St #69 Los Angeles, 310-498-5651, kiley.caldarera@aol.com
+Graciela Ruta, 98 Connecticut Ave Nw Chagrin Falls, 440-780-8425, gruta@cox.net
+Cammy Albares, 56 E Morehead St Laredo, 956-537-6195, calbares@gmail.com
+Mattie Poquette, 73 State Road 434 E Phoenix, 602-277-4385, mattie@aol.com
+
+        try
+        {
+            TextNameList = this.getAssets().open("NameList.txt");
+        }
+        catch (UnsupportedEncodingException e1)
+        {
+            // TODO Auto-generated catch block
+            e1.printStackTrace();
+        }
+        catch (final IOException e)
+        {
+            e.printStackTrace();
+        }
